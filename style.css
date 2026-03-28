@@ -3,41 +3,42 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    padding-left: 3px;
 }
 h1 {
     background-color: purple;
     color: white;
     text-align: center;
     padding: 15px;
+    margin: 0;
 }
 h2 {
     color: #333;
     border-bottom: 2px solid purple;
-    margin-top: 20px;
+    margin-top: 30px;
+    padding-bottom: 5px;
 }
 ul {
     background-color: white;
-    padding: 15px;
+    padding: 20px;
     border-radius: 8px;
+    margin-top: 10;
     list-style-type: square;
 }
 table {
     width: 100%;
     border-collapse: collapse;
     background-color: white;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 th {
     background-color: purple;
     color: white;
+    padding: 12px;
 }
 
-td, th {
+td {
     padding: 10px;
-    border: 1px solid #ddd;
-    text-align: center;
 }
 form {
     background-color: white;
@@ -45,11 +46,13 @@ form {
     border-radius: 8px;
     margin-top: 20px;
 }
-
+form div {
+    margin-bottom: 15px;
+}
 input, textarea {
     width: 100%;
-    padding: 8px;
-    margin-top: 5px;
+    padding: 10px;
+    margin-top: 8px;
 }
 input[type="submit"] {
     background-color: purple;
@@ -65,9 +68,17 @@ input[type="reset"] {
     border: none;
     padding: 10px;
 }
+input[type="submit"], input[type="reset"] {
+    padding: 10px;
+    margin-top: 10px;
+}
 img {
     display: block;
     margin: auto;
     margin-top: 15px;
     width: 200px;
+}
+.container {
+    width: 90%;
+    margin: auto;
 }
