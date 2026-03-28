@@ -21,3 +21,10 @@ Web development learning journey
 - Added Colors, Backgrounds, Borders
 - Styled Tables and Forms
 - Improved overall UI of the webpage
+
+## 📅 Day 4 - Box Model & Layout 📦
+
+- Learned Box Model (margin, padding, border)
+- Improved spacing across sections
+- Centered content using container
+- Made UI cleaner and more structured
